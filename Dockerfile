@@ -1,4 +1,4 @@
-FROM postgres:9.6.4-alpine
+FROM postgres:10.10-alpine
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
