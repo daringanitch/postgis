@@ -1,5 +1,7 @@
 FROM postgres:10.10-alpine
 
+MAINTAINER Darin Ganitch <dganitch@illuminate.solutions>
+
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
 RUN apk update \
