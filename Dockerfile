@@ -7,4 +7,4 @@ RUN apk update \
     && apk add -u postgis \
     && rm -rf /var/lib/apt/lists/*
 
-COPY ./scripts/postgis.sh  /docker-entrypoint-initdb.d/postgis.sh
+COPY postgis.sh  /docker-entrypoint-initdb.d/postgis.sh
